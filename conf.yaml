@@ -1,8 +1,19 @@
----
-
+#intents-descriptive integer
 intents: 8589937728
+
+#command prefix
 prefix: "!"
+
+#channel id in which to send messages when status changes
 notification_channel: 
 
+allowed_roles: []
 
-...
+#file path for logging infos
+logfile: 
+
+ACTIVITY_STRING:
+  OPEN: "local OUVERT"
+  CLOSED: "local FERMÉ"
+
+bot_token:

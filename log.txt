@@ -1,0 +1,73 @@
+WARNING:discord.ext.commands.bot:Privileged message content intent is missing, commands may not work as expected.
+INFO:discord.client:logging in using static token
+WARNING:discord.ext.commands.bot:Privileged message content intent is missing, commands may not work as expected.
+INFO:discord.client:logging in using static token
+WARNING:discord.ext.commands.bot:Privileged message content intent is missing, commands may not work as expected.
+INFO:discord.client:logging in using static token
+WARNING:discord.ext.commands.bot:Privileged message content intent is missing, commands may not work as expected.
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: b8e5e9d60a27c6d8a90afe321765d2c1).
+ERROR:discord.ext.tasks:Unhandled exception in internal background task 'checkButton'.
+Traceback (most recent call last):
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py", line 239, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 50, in checkButton
+    if self.override :
+AttributeError: 'BotPortier' object has no attribute 'override'
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Loop._loop() done, defined at /home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py:200> exception=AttributeError("'BotPortier' object has no attribute 'override'")>
+Traceback (most recent call last):
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py", line 264, in _loop
+    raise exc
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py", line 239, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 50, in checkButton
+    if self.override :
+AttributeError: 'BotPortier' object has no attribute 'override'
+WARNING:discord.ext.commands.bot:Privileged message content intent is missing, commands may not work as expected.
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 55d105d1ac21551c27cd01ed8d72a70c).
+WARNING:discord.ext.commands.bot:Privileged message content intent is missing, commands may not work as expected.
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 333905e94bc22ecd821457ac85d9a64b).
+WARNING:discord.ext.commands.bot:Privileged message content intent is missing, commands may not work as expected.
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: ac00894c7e64bf952341d835e40e2412).
+WARNING:discord.ext.commands.bot:Privileged message content intent is missing, commands may not work as expected.
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: a93eca286eaa9ada6cb59f4a50bcedf0).
+WARNING:discord.ext.commands.bot:Privileged message content intent is missing, commands may not work as expected.
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: d0dc94663729c4a926995fee843ed1be).
+WARNING:discord.ext.commands.bot:Privileged message content intent is missing, commands may not work as expected.
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 76d0b360d0d108f2e098aa22d45c4668).
+WARNING:discord.ext.commands.bot:Privileged message content intent is missing, commands may not work as expected.
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 256f18ba781d7514da3048108fecd3bc).
+WARNING:discord.ext.commands.bot:Privileged message content intent is missing, commands may not work as expected.
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 0aeaa2fb4a4f50fc034f4c3ff104156f).
+WARNING:discord.ext.commands.bot:Privileged message content intent is missing, commands may not work as expected.
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 230e907e566326ce886dae73c21ab3d3).
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 69824d9c28ad4a9ec8018f5d742b76bc).
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: fd189d626d4efc8b1c282ade1934de70).
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 004c956eb6f346b8430e64d185be7c40).
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: debc4690a6adf7bf841cfbc94ff529bd).
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 789b600a32d849ac50269d08b8452dba).
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 371580a6fc877346fd6176575ab87ea6).
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: f006ce895e3ad3c544a1f308765d3697).
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: c7661d53cf950e407f44537bf6923e75).
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 509f2a259a36bd7209a4a9c721878746).
+ERROR:discord.ext.commands.bot:Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "cangeDisplay" is not found
