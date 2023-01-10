@@ -7,13 +7,16 @@ prefix: "!"
 #channel id in which to send messages when status changes
 notification_channel: 
 
+#roles that can use admin commands
 allowed_roles: []
 
 #file path for logging infos
 logfile: 
 
 ACTIVITY_STRING:
-  OPEN: "local OUVERT"
-  CLOSED: "local FERMÉ"
+  OPEN: "[local OUVERT]"
+  CLOSED: "[local FERMÉ]"
 
 bot_token:
+
+status_cache_filepath: "status_cache.yaml"

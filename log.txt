@@ -71,3 +71,480 @@ INFO:discord.client:logging in using static token
 INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 509f2a259a36bd7209a4a9c721878746).
 ERROR:discord.ext.commands.bot:Ignoring exception in command None
 discord.ext.commands.errors.CommandNotFound: Command "cangeDisplay" is not found
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: e4979b84f30e61e841d1baf14d97c8db).
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 9b8881c14579965eb50b6eeff1d33a36).
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 35d253e19f42971799682d75517faea4).
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 3040d4e134e59a1b0600b8c0508dea4b).
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: a69e874576fa0d21b7948bd0f1e05977).
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 437ddbdc744acde726877fb5ec065a15).
+ERROR:discord.ext.commands.bot:Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "changedoorvalue" is not found
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 26e2950420faee1c77bae37831be7ba3).
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 4b50cdec8c62508773ee1ca609575ccd).
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local FERMÉ]] | [dnd]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local FERMÉ]] | [dnd]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local FERMÉ]] | [dnd]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local FERMÉ]] | [dnd]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local FERMÉ]] | [dnd]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local FERMÉ]] | [dnd]
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: bb828bd8245052446dc78ec7d59a9304).
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: ab8413196560972aa4214a1ae6827a4b).
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+ERROR:discord.ext.commands.bot:Ignoring exception in command customDisplay
+Traceback (most recent call last):
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1349, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1015, in invoke
+    await self.prepare(ctx)
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 932, in prepare
+    await self._parse_arguments(ctx)
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 839, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 691, in transform
+    raise MissingRequiredArgument(param)
+discord.ext.commands.errors.MissingRequiredArgument: activity is a required argument that is missing.
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: a3fc189cbc45e8aaaaae48c258734658).
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+ERROR:discord.ext.commands.bot:Ignoring exception in command customDisplay
+Traceback (most recent call last):
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1349, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1015, in invoke
+    await self.prepare(ctx)
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 932, in prepare
+    await self._parse_arguments(ctx)
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 839, in _parse_arguments
+    transformed = await self.transform(ctx, param, attachments)
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 691, in transform
+    raise MissingRequiredArgument(param)
+discord.ext.commands.errors.MissingRequiredArgument: activity is a required argument that is missing.
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 4a8603ee4a17d1eb33ef1d80d6557c3b).
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: aaaa34bf0bcc77a20d3d1403e8d6239f).
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: b11f813eb4e2354ddafe8386d815bdec).
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: d6fd910fb068f8ed76c28ebac4413c48).
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 7c02238d9b1a1dbb7dc1aca1cf7eb6ab).
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: ccf369c9da25e1d084edf3414b632aa9).
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+ERROR:discord.ext.commands.bot:Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "customDIsplay" is not found
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 1a26bed75df60b4af702e9ca4c8752a6).
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: da9e33851204eb845a5e7406ced99652).
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+ERROR:discord.ext.commands.bot:Ignoring exception in command customDisplay
+Traceback (most recent call last):
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 229, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/pierre/Documents/projects/NouveauBotPortier/main.py", line 31, in customDisplay
+    if [role for role in ctx.author.roles if role in [discord.Role(id=roleid) for roleid in conf["allowed_roles"]]]: #type:ignore
+  File "/home/pierre/Documents/projects/NouveauBotPortier/main.py", line 31, in <listcomp>
+    if [role for role in ctx.author.roles if role in [discord.Role(id=roleid) for roleid in conf["allowed_roles"]]]: #type:ignore
+  File "/home/pierre/Documents/projects/NouveauBotPortier/main.py", line 31, in <listcomp>
+    if [role for role in ctx.author.roles if role in [discord.Role(id=roleid) for roleid in conf["allowed_roles"]]]: #type:ignore
+TypeError: Role.__init__() got an unexpected keyword argument 'id'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1349, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1023, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 238, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: TypeError: Role.__init__() got an unexpected keyword argument 'id'
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: ccabde9416655b905fb9969b2b885d07).
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+ERROR:discord.ext.commands.bot:Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "customDIsplay" is not found
+INFO:botPortier:checkedButton
+ERROR:discord.ext.commands.bot:Ignoring exception in command customDisplay
+Traceback (most recent call last):
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 229, in wrapped
+    ret = await coro(*args, **kwargs)
+  File "/home/pierre/Documents/projects/NouveauBotPortier/main.py", line 31, in customDisplay
+    if [role for role in ctx.author.roles if role in [discord.Role(roleid) for roleid in conf["allowed_roles"]]]: #type:ignore
+  File "/home/pierre/Documents/projects/NouveauBotPortier/main.py", line 31, in <listcomp>
+    if [role for role in ctx.author.roles if role in [discord.Role(roleid) for roleid in conf["allowed_roles"]]]: #type:ignore
+  File "/home/pierre/Documents/projects/NouveauBotPortier/main.py", line 31, in <listcomp>
+    if [role for role in ctx.author.roles if role in [discord.Role(roleid) for roleid in conf["allowed_roles"]]]: #type:ignore
+TypeError: Role.__init__() takes 1 positional argument but 2 were given
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/commands/bot.py", line 1349, in invoke
+    await ctx.command.invoke(ctx)
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 1023, in invoke
+    await injected(*ctx.args, **ctx.kwargs)  # type: ignore
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/commands/core.py", line 238, in wrapped
+    raise CommandInvokeError(exc) from exc
+discord.ext.commands.errors.CommandInvokeError: Command raised an exception: TypeError: Role.__init__() takes 1 positional argument but 2 were given
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 5985e45e99dc5974943329c620e92ff0).
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [a] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 795b4b088319d6afd3bf20f95a8e5b2d).
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [a] | [online]
+INFO:botPortier:checkedButton
+ERROR:discord.ext.commands.bot:Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "customDIsplau" is not found
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [bbb] | [idle]
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:botPortier:checkedButton
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: b90f0b830a373cbf5a1de35a7110ff15).
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+ERROR:discord.ext.tasks:Unhandled exception in internal background task 'checkButton'.
+Traceback (most recent call last):
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py", line 239, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 92, in checkButton
+    await self.updatePresence(announceDoor=announceDoor, announceEvent=announceEvent)
+  File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 121, in updatePresence
+    self.updateStatusFile()
+  File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 124, in updateStatusFile
+    with open(self.configuration["status_cache_filepath"]) as file:
+KeyError: 'status_cache_filepath'
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<Loop._loop() done, defined at /home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py:200> exception=KeyError('status_cache_filepath')>
+Traceback (most recent call last):
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py", line 264, in _loop
+    raise exc
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py", line 239, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 92, in checkButton
+    await self.updatePresence(announceDoor=announceDoor, announceEvent=announceEvent)
+  File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 121, in updatePresence
+    self.updateStatusFile()
+  File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 124, in updateStatusFile
+    with open(self.configuration["backup_filepath"]) as file:
+KeyError: 'status_cache_filepath'
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 6b90457a14f39fd7e9f7ff2f17b0b98f).
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+ERROR:discord.ext.tasks:Unhandled exception in internal background task 'checkButton'.
+Traceback (most recent call last):
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py", line 239, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 92, in checkButton
+    await self.updatePresence(announceDoor=announceDoor, announceEvent=announceEvent)
+  File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 121, in updatePresence
+    self.updateStatusFile()
+  File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 125, in updateStatusFile
+    dict = {"doorStatus" : self.button.is_active, "status": self.status}
+AttributeError: 'BotPortier' object has no attribute 'button'
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<Loop._loop() done, defined at /home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py:200> exception=AttributeError("'BotPortier' object has no attribute 'button'")>
+Traceback (most recent call last):
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py", line 264, in _loop
+    raise exc
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py", line 239, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 92, in checkButton
+    await self.updatePresence(announceDoor=announceDoor, announceEvent=announceEvent)
+  File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 121, in updatePresence
+    self.updateStatusFile()
+  File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 125, in updateStatusFile
+    dict = {"doorStatus" : self.button.is_active, "status": self.status}
+AttributeError: 'BotPortier' object has no attribute 'button'
