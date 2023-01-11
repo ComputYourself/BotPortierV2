@@ -11,12 +11,12 @@ configuration_path = os.path.abspath(os.path.dirname(__file__))
 with open(os.path.join(configuration_path, "conf.yaml.local"), "r") as stream:
     conf = yaml.safe_load(stream)
 
-bot = BotPortier.BotPortier(configuration=conf)
+with open(conf["backup_filepath"], 'r') as file:
+    backup = yaml.safe_load(file)
 
-@bot.event
-async def on_ready():
-    print("ready")
-    bot.checkButton.start()
+bot = BotPortier.BotPortier(configuration=conf, data=backup)
+
+
 
 @bot.event
 async def on_connect():
@@ -48,5 +48,10 @@ async def isOpen(ctx : Context, arg1=None):
     """know if the button is on"""
     if not arg1:
         await ctx.channel.send(bot.doorStatus.name)
+
+@bot.event
+async def on_ready():
+    print("ready")
+    bot.checkButton.start()
 
 bot.run(conf["bot_token"])

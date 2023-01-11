@@ -548,3 +548,413 @@ Traceback (most recent call last):
   File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 125, in updateStatusFile
     dict = {"doorStatus" : self.button.is_active, "status": self.status}
 AttributeError: 'BotPortier' object has no attribute 'button'
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 40c1acb981e2e483088d8299ec84f38e).
+INFO:botPortier:checkedButton
+ERROR:discord.ext.tasks:Unhandled exception in internal background task 'checkButton'.
+Traceback (most recent call last):
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py", line 239, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 74, in checkButton
+    if event.start_time < current_time and event.end_time > current_time:
+TypeError: can't compare offset-naive and offset-aware datetimes
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<Loop._loop() done, defined at /home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py:200> exception=TypeError("can't compare offset-naive and offset-aware datetimes")>
+Traceback (most recent call last):
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py", line 264, in _loop
+    raise exc
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py", line 239, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 74, in checkButton
+    if event.start_time < current_time and event.end_time > current_time:
+TypeError: can't compare offset-naive and offset-aware datetimes
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 57bf2f6557f3fd892e7ea9fe5267f492).
+INFO:botPortier:checkedButton
+ERROR:discord.ext.tasks:Unhandled exception in internal background task 'checkButton'.
+Traceback (most recent call last):
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py", line 239, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 75, in checkButton
+    if event.start_time < current_time and event.end_time > current_time:
+TypeError: can't compare offset-naive and offset-aware datetimes
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<Loop._loop() done, defined at /home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py:200> exception=TypeError("can't compare offset-naive and offset-aware datetimes")>
+Traceback (most recent call last):
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py", line 264, in _loop
+    raise exc
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py", line 239, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 75, in checkButton
+    if event.start_time < current_time and event.end_time > current_time:
+TypeError: can't compare offset-naive and offset-aware datetimes
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 574b627646b855837e27a0a53d6b4a5c).
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+ERROR:discord.ext.tasks:Unhandled exception in internal background task 'checkButton'.
+Traceback (most recent call last):
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py", line 239, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 94, in checkButton
+    await self.updatePresence(announceDoor=announceDoor, announceEvent=announceEvent)
+  File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 123, in updatePresence
+    self.updateStatusFile()
+  File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 129, in updateStatusFile
+    yaml.safe_dump(dict, file)
+  File "/usr/lib/python3/dist-packages/yaml/__init__.py", line 306, in safe_dump
+    return dump_all([data], stream, Dumper=SafeDumper, **kwds)
+  File "/usr/lib/python3/dist-packages/yaml/__init__.py", line 278, in dump_all
+    dumper.represent(data)
+  File "/usr/lib/python3/dist-packages/yaml/representer.py", line 27, in represent
+    node = self.represent_data(data)
+  File "/usr/lib/python3/dist-packages/yaml/representer.py", line 48, in represent_data
+    node = self.yaml_representers[data_types[0]](self, data)
+  File "/usr/lib/python3/dist-packages/yaml/representer.py", line 207, in represent_dict
+    return self.represent_mapping('tag:yaml.org,2002:map', data)
+  File "/usr/lib/python3/dist-packages/yaml/representer.py", line 118, in represent_mapping
+    node_value = self.represent_data(item_value)
+  File "/usr/lib/python3/dist-packages/yaml/representer.py", line 58, in represent_data
+    node = self.yaml_representers[None](self, data)
+  File "/usr/lib/python3/dist-packages/yaml/representer.py", line 231, in represent_undefined
+    raise RepresenterError("cannot represent an object", data)
+yaml.representer.RepresenterError: ('cannot represent an object', <Status.online: 'online'>)
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<Loop._loop() done, defined at /home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py:200> exception=RepresenterError('cannot represent an object', <Status.online: 'online'>)>
+Traceback (most recent call last):
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py", line 264, in _loop
+    raise exc
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py", line 239, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 94, in checkButton
+    await self.updatePresence(announceDoor=announceDoor, announceEvent=announceEvent)
+  File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 123, in updatePresence
+    self.updateStatusFile()
+  File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 129, in updateStatusFile
+    yaml.safe_dump(dict, file)
+  File "/usr/lib/python3/dist-packages/yaml/__init__.py", line 306, in safe_dump
+    return dump_all([data], stream, Dumper=SafeDumper, **kwds)
+  File "/usr/lib/python3/dist-packages/yaml/__init__.py", line 278, in dump_all
+    dumper.represent(data)
+  File "/usr/lib/python3/dist-packages/yaml/representer.py", line 27, in represent
+    node = self.represent_data(data)
+  File "/usr/lib/python3/dist-packages/yaml/representer.py", line 48, in represent_data
+    node = self.yaml_representers[data_types[0]](self, data)
+  File "/usr/lib/python3/dist-packages/yaml/representer.py", line 207, in represent_dict
+    return self.represent_mapping('tag:yaml.org,2002:map', data)
+  File "/usr/lib/python3/dist-packages/yaml/representer.py", line 118, in represent_mapping
+    node_value = self.represent_data(item_value)
+  File "/usr/lib/python3/dist-packages/yaml/representer.py", line 58, in represent_data
+    node = self.yaml_representers[None](self, data)
+  File "/usr/lib/python3/dist-packages/yaml/representer.py", line 231, in represent_undefined
+    raise RepresenterError("cannot represent an object", data)
+yaml.representer.RepresenterError: ('cannot represent an object', <Status.online: 'online'>)
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 6aeafa103da41c118cea59d955b64d53).
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: a18f7291f695978b7e1828a681742ac1).
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: a20d202f9afb3787c32442837c07679a).
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 7235d7f58d83fac544c9a92e9a9628eb).
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 71ae77874ef752cef4fba9195b61bf7d).
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<BotPortier.checkButton() done, defined at /home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py:45> exception=UnsupportedOperation('not writable')>
+Traceback (most recent call last):
+  File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 90, in checkButton
+    await self.updatePresence(announceDoor=announceDoor, announceEvent=announceEvent)
+  File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 121, in updatePresence
+    self.updateStatusFile()
+  File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 128, in updateStatusFile
+    yaml.safe_dump(dict, file)
+  File "/usr/lib/python3/dist-packages/yaml/__init__.py", line 306, in safe_dump
+    return dump_all([data], stream, Dumper=SafeDumper, **kwds)
+  File "/usr/lib/python3/dist-packages/yaml/__init__.py", line 278, in dump_all
+    dumper.represent(data)
+  File "/usr/lib/python3/dist-packages/yaml/representer.py", line 28, in represent
+    self.serialize(node)
+  File "/usr/lib/python3/dist-packages/yaml/serializer.py", line 54, in serialize
+    self.serialize_node(node, None, None)
+  File "/usr/lib/python3/dist-packages/yaml/serializer.py", line 107, in serialize_node
+    self.serialize_node(key, node, None)
+  File "/usr/lib/python3/dist-packages/yaml/serializer.py", line 89, in serialize_node
+    self.emit(ScalarEvent(alias, node.tag, implicit, node.value,
+  File "/usr/lib/python3/dist-packages/yaml/emitter.py", line 115, in emit
+    self.state()
+  File "/usr/lib/python3/dist-packages/yaml/emitter.py", line 393, in expect_first_block_mapping_key
+    return self.expect_block_mapping_key(first=True)
+  File "/usr/lib/python3/dist-packages/yaml/emitter.py", line 403, in expect_block_mapping_key
+    self.expect_node(mapping=True, simple_key=True)
+  File "/usr/lib/python3/dist-packages/yaml/emitter.py", line 244, in expect_node
+    self.expect_scalar()
+  File "/usr/lib/python3/dist-packages/yaml/emitter.py", line 268, in expect_scalar
+    self.process_scalar()
+  File "/usr/lib/python3/dist-packages/yaml/emitter.py", line 533, in process_scalar
+    self.write_plain(self.analysis.scalar, split)
+  File "/usr/lib/python3/dist-packages/yaml/emitter.py", line 1132, in write_plain
+    self.stream.write(data)
+io.UnsupportedOperation: not writable
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 48f9be947a3c67dc2c8431772c580340).
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 58bd462531230df46901f4fecd621505).
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 72e882777117344badb5fe8b6e1a4beb).
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:checkedButton
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 1564beec7152d52bbad62d912b9875d9).
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: d3fefb6145b0f3b33e35049dd7791be0).
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: d1688b176702feeec219f447cdaac3f3).
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: f0bc2d321aa22bb6303966eaeb351558).
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 01ba873533491e5b20f4501182e3955d).
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 9cd4f66061ba0a4d186a71f386c336dc).
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: a32b3fda89edd1f538b70afef439f8fd).
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: e15d68b8f63d544ecbbd729aa7c78052).
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: baff6338e45fdc289ec84bacc65bc434).
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+ERROR:discord.ext.tasks:Unhandled exception in internal background task 'checkButton'.
+Traceback (most recent call last):
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py", line 239, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 87, in checkButton
+    await channel.send(self.doorStatus.name) #type:ignore
+NameError: name 'channel' is not defined
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<Loop._loop() done, defined at /home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py:200> exception=NameError("name 'channel' is not defined")>
+Traceback (most recent call last):
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py", line 264, in _loop
+    raise exc
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py", line 239, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 87, in checkButton
+    await channel.send(self.doorStatus.name) #type:ignore
+NameError: name 'channel' is not defined
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 60c23bf3d051a2d9c87f5db3253d5273).
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 1576f1a9d25e158d9fc70dd4f1d480e3).
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+ERROR:discord.ext.tasks:Unhandled exception in internal background task 'checkButton'.
+Traceback (most recent call last):
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py", line 239, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 87, in checkButton
+    await channel.send(self.doorStatus.name) #type:ignore
+NameError: name 'channel' is not defined
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<Loop._loop() done, defined at /home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py:200> exception=NameError("name 'channel' is not defined")>
+Traceback (most recent call last):
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py", line 264, in _loop
+    raise exc
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py", line 239, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 87, in checkButton
+    print(dt.datetime.now())
+NameError: name 'channel' is not defined
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 47130815f427c93860a41e66a6a0079f).
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 8b58b3ee6af668250984170331a320ff).
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 37efc8adf5eeb5d882dcfacf26356dee).
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 417aafac16f92ff58a3b008c9ebbf5f6).
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
