@@ -958,3 +958,24 @@ INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
 INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
 INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
 INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:botPortier:changed bot presence to: [[local OUVERT]] | [online]
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 2720f720279b533fad79dac3861c1d5b).
+ERROR:discord.ext.tasks:Unhandled exception in internal background task 'checkButton'.
+Traceback (most recent call last):
+  File "/home/pierre/.local/lib/python3.10/site-packages/discord/ext/tasks/__init__.py", line 239, in _loop
+    await self.coro(*args, **kwargs)
+  File "/home/pierre/Documents/projects/NouveauBotPortier/BotPortier.py", line 55, in checkButton
+    if self.button.is_active:
+AttributeError: 'BotPortier' object has no attribute 'button'

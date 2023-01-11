@@ -41,7 +41,7 @@ class BotPortier(commands.Bot):
         self.logger = logging.getLogger("botPortier")
         
     
-    @tasks.loop(seconds=15.0)
+    @tasks.loop(seconds=10.0)
     async def checkButton(self) -> None:
         """checks the door state every x seconds and changes the presence if it is not currently overriden. Also checks for events."""
         print("checkButton")
@@ -52,7 +52,7 @@ class BotPortier(commands.Bot):
         announceDoor = False
         announceEvent = False
 
-        if True:#self.button.is_active:
+        if self.button.is_active:
             self.doorStatus = Game(self.configuration["ACTIVITY_STRING"]["OPEN"])
             self.status = d.Status.online
         else:
@@ -120,8 +120,7 @@ class BotPortier(commands.Bot):
 
     def updateStatusFile(self):
         with open(self.configuration["backup_filepath"], "w") as file:
-            dict = {"doorStatus" : True, "status": self.status.name, "override": self.override}
-            #dict = {"doorStatus" : self.button.is_active, "status": self.status}
-            yaml.dump(dict, file)
+            dict = {"doorStatus" : self.button.is_active, "status": self.status.name}
+            yaml.safe_dump(dict, file)
 
 
